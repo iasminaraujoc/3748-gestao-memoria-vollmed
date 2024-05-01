@@ -32,6 +32,8 @@ public class Paciente {
     private Endereco endereco;
 
     private Boolean ativo;
+
+    public List<Consulta> consultas;
     public Paciente(DadosCadastroPaciente dados) {
         this.ativo = true;
         this.nome = dados.nome();
@@ -56,5 +58,9 @@ public class Paciente {
 
     public void excluir() {
         this.ativo = false;
+    }
+
+    public List<Consulta> consultas(){
+        return consultas();
     }
 }
