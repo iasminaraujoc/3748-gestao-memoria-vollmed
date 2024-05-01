@@ -33,6 +33,7 @@ public class Paciente {
 
     private Boolean ativo;
 
+    @Transient
     public List<Consulta> consultas;
     public Paciente(DadosCadastroPaciente dados) {
         this.ativo = true;
