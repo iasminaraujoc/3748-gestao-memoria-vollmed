@@ -16,7 +16,6 @@ import java.util.Objects;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(of = "id")
 public class Paciente {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
