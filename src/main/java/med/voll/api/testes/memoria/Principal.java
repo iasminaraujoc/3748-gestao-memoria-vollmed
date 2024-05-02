@@ -13,6 +13,6 @@ public class Principal {
         paciente2 = paciente;
         System.out.println(paciente == paciente2);
 
-
+        String nome = "Iasmin"; //String é uma classe
     }
 }
