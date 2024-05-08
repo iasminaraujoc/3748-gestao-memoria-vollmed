@@ -6,7 +6,7 @@ public class TestaPC {
         System.out.println(soma(4, 9));
     }
 
-    public native static int soma(int valor1, int valor2){
+    public static int soma(int valor1, int valor2){
         return valor1 + valor2;
     }
 }
